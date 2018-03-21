@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>注册</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.5.13/vue.js"></script>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-4 center">
+                <form action="/regist" method="post" role="form" id="regist">
+                    <fieldset form="regist"class="col-sm-4 bg-primary">
+                        <legend class="col-sm-4 col-sm-offset-3">注册</legend>
+                        <div class="form-group">
+                            <div>
+                                <label for="userName">
+                                    <span class="page-header"><h4>账号：</h4></span>
+                                    <input type="text" class="form-control input-lg" name="userName" id="userName" datatype="sti" placeholder="请输入账号">
+                                </label>
+                            </div>
+                            <div>
+                                <label for="userPWD">
+                                    <span class="page-header"><h4>密码：</h4></span>
+                                    <input type="text" class="form-control input-lg" name="userPwd" id="userPWD" placeholder="请输入密码">
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-warning col-sm-offset-4">提交</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{
+    background-color: #32323a;
+}
+nav {
+    background-color: #00a5a5;
+}
+nav a{
+    color: #0f0f0f;
+}
+.nav-pills li{
+    border: none;
+    background-color: #00a5a5;
+    left: -30px;
+    top: 10px;
+}
+.navbar-brand{
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+thead {
+    background-color: #00a5a5;
+}
+tbody{
+    background-color: #d1e9ff;
+}
+tbody td{
+    color: #000000b3;
+}
+tbody tr:hover{
+    background-color: cadetblue;
+}
+.btn-group {
+    background-color: #32323a;
+    color: white;
+}
+.btn-group:hover{
+    background-color: #2e6da4;
+}
+.list-group-item>li{
+    align-items: center;
+}
+.nav-stacked{
+    float: left;
+}
+.col h2{
+    margin-top: 0px;
+}
+.col ul{
+    margin-top: 0px;
+}
+.col nav {
+    border-bottom: 0px;
+}
+
+#description{
+    margin-left: 6.875px;
+    margin-bottom: 0px;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+}
+#description button {
+    height: 44px;
+}
+#shiroPer{
+    float: right;
+    width: 200px;
+    margin-left: 740px;
+}
+
+#shiroPer button{
+    color: #2aabd2;
+    /*background-color: rgba(0,0,0,0);*/
+}

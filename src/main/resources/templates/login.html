@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html"xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.5.13/vue.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/static/css/hello.css}"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row row-centered">
+            <form class="form-group" method="post" action="/admin/login">
+                <div class="center-block">
+                    <div class="input-group input-group-md form-control" data-spy="affix" data-offset-right="0" style="width: 196px">
+                        <span th:text="${message}" style="color: red"></span>
+                    </div>
+                    <div class="input-group input-group-md form-control" data-spy="affix" data-offset-right="10">
+                        <span class="input-group-addon">账号：</span>
+                        <input type="text" name="userName" required autofocus/>
+                    </div>
+                    <br/>
+                    <div class="input-group input-group-md form-control" data-spy="affix" data-offset-right="100">
+                        <span class="input-group-addon">密码：</span>
+                        <input type="password" name="userPwd" pattern="[A-Za-z0-9]{6-12}" required/>
+                    </div>
+                    <div class="btn success">
+                        <div>
+                            <input type="submit" value="登录"/>
+                            <a href="toRegist">
+                                <input type="button" value="注册"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

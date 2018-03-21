@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css}"/>
+    <script th:src="@{https://cdn.bootcss.com/jquery/3.3.1/jquery.js}"></script>
+    <script th:src="@{https://cdn.bootcss.com/vue/2.5.13/vue.js}"></script>
+    <script th:src="@{https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js}"></script>
+    <script th:src="@{https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js}"></script>
+    <style type="text/css">
+        .form-control{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container center-block">
+        <div class="row">
+            <form class="col col-sm-4 col-sm-offset-4">
+                <div class="form-group ">
+                    <div>
+                        <label for="productName"></label>
+                        <input type="text"class="form-control" name="product.name" id="productName" placeholder="请填写产品名称">
+                    </div>
+                    <div>
+                        <label for="productDes"></label>
+                        <input type="text"class="form-control" name="product.description" id="productDes" placeholder="请填写产品分类">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

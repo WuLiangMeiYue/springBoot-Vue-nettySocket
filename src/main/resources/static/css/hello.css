@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #555555
+}
+.container{
+    margin-top: 10%;
+    background-size: 90%;
+    background: url(/static/img/login.jpg) no-repeat 30%;
+}
+.row-centered{
+    height: 300px;
+}
+.center-block{
+    margin-top: 10%;
+    width: 15%;
+}
+.center-block>div{
+    text-align: center;
+    position: relative;
+    margin-left: 200%;
+}
+.success{
+    width: 230px;
+}
+.input-group{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    height: 0px;
+    padding: 0px;
+}
+.input-group input {
+    height: 34px;
+}
+.success input{
+    border: none;
+    color: #0f0f0f;
+    background-color: rgba(0,0,0,0);
+    margin-top: 15px;
+    margin-right: 1px;
+    margin-left: 29px;
+}
+.input-group-addon{
+    background-color: rgba(0,0,0,0);
+    color: #0f0f0f;
+    border: none;
+    height: 0px;
+    padding: 0px;
+}
